@@ -33,6 +33,11 @@ class CarController {
       this.next(error);
     }
   }
+
+  public async getAllCars() {
+    const cars = await this.service.getAllCars();
+    return this.res.status(200).json(cars);
+  }
 }
 
 export default CarController;
