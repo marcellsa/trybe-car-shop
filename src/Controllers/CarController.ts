@@ -1,7 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 import ICar from '../Interfaces/ICar';
 import CarService from '../Services/CarService';
-import GenerateError from '../utils/GenerateError';
 
 class CarController {
   private req: Request;
@@ -36,19 +35,18 @@ class CarController {
   }
 
   public async getAllCars() {
-    try {
-      const cars = await this.service.getAllCars();
-      return this.res.status(200).json(cars);
-    } catch (error) {
-      this.next(error);
-    }
+    const cars = await this.service.getAllCars();
+    return this.res.status(200).json(cars);
   }
 
   public async getCarById() {
     const { id } = this.req.params;
-    if (!id) throw new GenerateError(404, 'Car not found');    
-    const car = await this.service.getCarById(id);
-    return this.res.status(200).json(car);
+    try {
+      const car = await this.service.getCarById(id);
+      return this.res.status(200).json(car);
+    } catch (error) {
+      this.next(error);
+    }  
   }
 }
 

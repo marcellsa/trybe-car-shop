@@ -1,5 +1,6 @@
-import { model, Model, models, Schema } from 'mongoose';
+import { isValidObjectId, model, Model, models, Schema } from 'mongoose';
 import ICar from '../Interfaces/ICar';
+import GenerateError from '../utils/GenerateError';
 
 class CarODM {
   private schema: Schema;
@@ -26,8 +27,9 @@ class CarODM {
     return this.model.find();
   }
 
-  public async findById(id: string): Promise<ICar[]> {
-    return this.model.find({ id });
+  public async findById(id: string): Promise<ICar | null> {
+    if (!isValidObjectId(id)) throw new GenerateError(422, 'Invalid mongo id');
+    return this.model.findById(id);
   }
 }
 
