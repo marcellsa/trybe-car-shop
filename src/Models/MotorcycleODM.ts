@@ -1,5 +1,6 @@
-import { Schema } from 'mongoose';
+import { isValidObjectId, Schema } from 'mongoose';
 import IMotorcycle from '../Interfaces/IMotorcycle';
+import GenerateError from '../utils/GenerateError';
 import AbstractODM from './AbstractODM';
 
 class MotorcycleODM extends AbstractODM<IMotorcycle> {
@@ -19,6 +20,15 @@ class MotorcycleODM extends AbstractODM<IMotorcycle> {
 
   public async create(motorcycle: IMotorcycle): Promise<IMotorcycle> {
     return this.model.create({ ...motorcycle });
+  }
+
+  public async findAll(): Promise<IMotorcycle[]> {
+    return this.model.find();
+  }
+
+  public async findById(id: string): Promise<IMotorcycle | null> {
+    if (!isValidObjectId(id)) throw new GenerateError(422, 'Invalid mongo id');
+    return this.model.findById(id);
   }
 }
 
