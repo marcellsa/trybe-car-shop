@@ -30,6 +30,11 @@ class MotorcycleODM extends AbstractODM<IMotorcycle> {
     if (!isValidObjectId(id)) throw new GenerateError(422, 'Invalid mongo id');
     return this.model.findById(id);
   }
+
+  public async updateMotorcycle(id: string, motorcycle: IMotorcycle): Promise<IMotorcycle | null> {
+    if (!isValidObjectId(id)) throw new GenerateError(422, 'Invalid mongo id');
+    return this.model.findByIdAndUpdate(id, motorcycle, { new: true });
+  }
 }
 
 export default MotorcycleODM;
