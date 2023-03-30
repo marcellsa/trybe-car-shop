@@ -31,6 +31,11 @@ class CarODM {
     if (!isValidObjectId(id)) throw new GenerateError(422, 'Invalid mongo id');
     return this.model.findById(id);
   }
+
+  public async updateCar(id: string, carToUpdate: ICar): Promise<ICar | null> {
+    if (!isValidObjectId(id)) throw new GenerateError(422, 'Invalid mongo id');
+    return this.model.findByIdAndUpdate(id, carToUpdate, { new: true });
+  }
 }
 
 export default CarODM;
