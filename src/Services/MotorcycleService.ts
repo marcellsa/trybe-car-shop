@@ -1,12 +1,12 @@
-import Motorcycles from '../Domains/Motorcycle';
+import Motorcycle from '../Domains/Motorcycle';
 import IMotorcycle from '../Interfaces/IMotorcycle';
 import MotorcycleODM from '../Models/MotorcycleODM';
 import GenerateError from '../utils/GenerateError';
 
 class MotorcycleService {
-  public createMotorcycleDomain(motorcycle: IMotorcycle | null): Motorcycles | null {
+  public createMotorcycleDomain(motorcycle: IMotorcycle | null): Motorcycle | null {
     if (motorcycle) {
-      return new Motorcycles(motorcycle);
+      return new Motorcycle(motorcycle);
     }
     return null;
   }
