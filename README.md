@@ -26,19 +26,19 @@ Chai
 
 Para executar a aplicação inicie realizando o clone deste repositório com o comando abaixo.
 
-´´´git clone git@github.com:marcellsa/trybe-car-shop.git´´´
+```git clone git@github.com:marcellsa/trybe-car-shop.git```
 Navegue até a raíz do projeto.
 
-´´´cd car-shop/´´´
+```cd car-shop```
 Execute o comando para instalar as dependencias do projetos.
 
-´´´npm install´´´
+```npm install```
 Na raíz do projeto, suba os containers do car_shop e car_shop_db com o comando abaixo
 
-´´´docker-compose up -d´´´
+```docker-compose up -d```
+
 Inicie o servidor com o comando abaixo
+```npm run dev```
 
-´´´npm run dev´´´
 Rode os testes da aplicação usando o seguinte comando
-
-´´´npm run test:mocha´´´
+```npm run test:mocha```
