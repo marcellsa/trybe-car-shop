@@ -26,7 +26,7 @@ Chai
 
 Para executar a aplicação inicie realizando o clone deste repositório com o comando abaixo.
 
-git clone git@github.com:larissaperinoto/car-shop-api.git
+git clone git@github.com:marcellsa/trybe-car-shop.git
 Navegue até a raíz do projeto.
 
 cd car-shop-api/
