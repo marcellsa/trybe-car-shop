@@ -1,6 +1,6 @@
 <h1>Car Shop</h1>
 
-> Status do Projeto: :heavy_check_mark: :warning: (concluído)
+> Status do Projeto: :heavy_check_mark: concluído
 
 ## 💻 Objetivo do projeto 
 
