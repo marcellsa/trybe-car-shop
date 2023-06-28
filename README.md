@@ -5,7 +5,7 @@
 ## 💻 Objetivo do projeto 
 
 <p align="justify">
-  Foi desenvolvido uma API com CRUD para gerenciar uma concessionária de veículosutilizando o banco de dados MongoDB através do framework do Mongoose. 
+  Foi desenvolvido uma API com CRUD para gerenciar uma concessionária de veículos utilizando o banco de dados MongoDB através do framework do Mongoose. 
 </p>
 
 ## 🛠 Tecnologias
