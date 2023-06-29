@@ -1,55 +1,57 @@
-<h1>Car Shop</h1>
+<!-- Título do Projeto -->
+# Car Shop
 
-> Status do Projeto: :heavy_check_mark: concluído
+API com CRUD para gerenciar uma concessionária de veículos utilizando o banco de dados.
 
-## 💻 Objetivo do projeto 
+<!-- Status do Projeto -->
+## 📊 Status do Projeto
 
-<p align="justify">
-  Foi desenvolvido uma API com CRUD para gerenciar uma concessionária de veículos utilizando o banco de dados MongoDB através do framework do Mongoose. 
-</p>
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Test](https://img.shields.io/badge/tests-passed-brightgreen)
+![Coverage](https://img.shields.io/badge/coverage-60%25-yellow)
 
-## 🛠 Tecnologias
+<!-- Visão Geral -->
+## 💡Visão Geral
 
-<div>
-    <img src='https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white' alt='ESlint' />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="NodeJS"/>
-    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-    <img src="https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=Mocha&logoColor=white" alt="Mocha" />
-    <img src="https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white" alt="Chai" />
-</div>
+Foi desenvolvido uma API com CRUD para gerenciar uma concessionária de veículos utilizando o banco de dados MongoDB através do framework do Mongoose.
 
-Neste projeto utilizou-se as seguintes ferramentas:
-  
-- [NodeJS](https://nodejs.org/en/)
-- [Express](https://expressjs.com/pt-br/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Docker](https://www.docker.com/)
-- [Mongoose](https://mongoosejs.com/)
-- [MongoDB](https://www.mongodb.com/)
-- Arquitetura Model-Service-Controller
+<!-- Tecnologias -->
+## 🔧Tecnologias
 
-### Testes
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+![Node.js](https://img.shields.io/badge/-Node.js-green)
+![Express](https://img.shields.io/badge/-Express-lightgrey)
+![Mongoose](https://img.shields.io/badge/-Mongoose-green)
+![MongoDB](https://img.shields.io/badge/-MongoDB-green)
+![Docker](https://img.shields.io/badge/-Docker-blue)
+![npm](https://img.shields.io/badge/-npm-red)
+![Git](https://img.shields.io/badge/-Git-red)
+![GitHub](https://img.shields.io/badge/-GitHub-black)
+![MSC](https://img.shields.io/badge/-MSC-lightgrey)
+![Jest](https://img.shields.io/badge/-Jest-red)
+![Mocha](https://img.shields.io/badge/-Mocha-blue)
+![ESLint](https://img.shields.io/badge/-ESLint-purple)
+![Prettier](https://img.shields.io/badge/-Prettier-pink)
+![REST API](https://img.shields.io/badge/-REST%20API-green)
+![JSON](https://img.shields.io/badge/-JSON-orange)
+![JWT](https://img.shields.io/badge/-JWT-yellow)
 
-- [Mocha](https://mochajs.org/)
-- [Sinon](https://sinonjs.org/)
-- [Chai](https://www.chaijs.com/)
+<!-- Recursos -->
+## 📚Recursos
 
-### Alinhamento de código
+Descrição dos principais recursos ou funcionalidades que o projeto oferece.
 
-- [ESlint](https://eslint.org/)
+<!-- Instalação -->
+## ⚙️Instalação
 
-## :warning: Dependências
-
-Liste todas as dependencias e libs que o usuário deve ter instalado na máquina antes de rodar a aplicação 
+### :warning: Dependências
 
 ```bash
 npm install
 ``` 
 
-## 🚀 Como executar o projeto
+<!-- Uso -->
+## 🖥️Uso
 
   ⚠️ Para executar o projeto é necessário ter o [Docker](https://docs.docker.com/desktop/install/linux-install/) instalado em sua máquina.
   
@@ -77,6 +79,21 @@ Inicie o servidor com o comando abaixo
 Rode os testes da aplicação usando o seguinte comando
 
     npm run test:mocha
+
+<!-- Licença -->
+## 📝Licença
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<!-- Contato -->
+## 📞Contato
+
+Informações de contato para dúvidas, suporte ou colaborações.
+
+✉️ msalbuquerque@hotmail.com
+
+💼 [LinkedIn](https://linkedin.com/in/marcellsa)
+
 
 
 ---
