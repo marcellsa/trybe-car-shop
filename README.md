@@ -19,6 +19,7 @@ Foi desenvolvido uma API com CRUD para gerenciar uma concessionária de veículo
 ## 🔧Tecnologias
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+![TypeScript](https://img.shields.io/badge/-TypeScript-blue)
 ![Node.js](https://img.shields.io/badge/-Node.js-green)
 ![Express](https://img.shields.io/badge/-Express-lightgrey)
 ![Mongoose](https://img.shields.io/badge/-Mongoose-green)
@@ -39,7 +40,15 @@ Foi desenvolvido uma API com CRUD para gerenciar uma concessionária de veículo
 <!-- Recursos -->
 ## 📚Recursos
 
-Descrição dos principais recursos ou funcionalidades que o projeto oferece.
+- Programação Orientada a Objetos: Herança, Abstração, Encapsulamento e Polimorfismo;
+
+- Utilização de Composição;
+
+- Criação e utilização de Interfaces;
+
+- Implementação, em TypeScript: Classes, Instâncias, Atributos, Métodos e Objetos;
+
+- Aplicação dos conhecimentos de MongoDB, Typescript e POO para criar uma API com CRUD.
 
 <!-- Instalação -->
 ## ⚙️Instalação
