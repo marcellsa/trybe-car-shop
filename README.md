@@ -95,7 +95,6 @@ Informações de contato para dúvidas, suporte ou colaborações.
 💼 [LinkedIn](https://linkedin.com/in/marcellsa)
 
 
-
 ---
 
-Desenvolvido por [Marcel Albuquerque](www.linkedin.com/in/marcellsa), © 2023.
+[Marcel Albuquerque](www.linkedin.com/in/marcellsa), 2023.
