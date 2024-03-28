@@ -1,7 +1,7 @@
 <!-- Título do Projeto -->
 # Car Shop
 
-API com CRUD para gerenciar uma concessionária de veículos utilizando o banco de dados.
+Sistema (API) para gerenciar uma concessionária de veículos, permitindo adicionar, visualizar, editar e excluir informações sobre os carros disponíveis, como marca, modelo, ano e preço.
 
 <!-- Status do Projeto -->
 ## 📊 Status do Projeto
@@ -13,7 +13,9 @@ API com CRUD para gerenciar uma concessionária de veículos utilizando o banco 
 <!-- Visão Geral -->
 ## 💡Visão Geral
 
-Foi desenvolvido uma API com CRUD para gerenciar uma concessionária de veículos utilizando o banco de dados MongoDB através do framework do Mongoose.
+Neste projeto, desenvolvi uma API com CRUD para gerenciar uma concessionária de veículos. Utilizei o banco de dados MongoDB com o framework Mongoose para armazenar e manipular os dados dos carros disponíveis na concessionária.
+
+Essa API permitia realizar operações de criação, leitura, atualização e exclusão (CRUD) das informações dos veículos, como marca, modelo, ano, preço e outras características.
 
 <!-- Tecnologias -->
 ## 🔧Tecnologias
